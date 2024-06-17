@@ -102,6 +102,7 @@ include $(MAKE_SCRIPT_DIR)/$(OSFAMILY).mk
 
 # include the tools makefile
 include $(MAKE_SCRIPT_DIR)/tools.mk
+include $(MAKE_SCRIPT_DIR)/targets.mk
 
 # Search path for sources
 VPATH           := $(SRC_DIR):$(SRC_DIR)/startup
