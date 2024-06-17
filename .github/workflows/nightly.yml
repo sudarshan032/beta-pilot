@@ -50,7 +50,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          token: ${{ secrets.REPO_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ env.repo_nightly }}
           tag_name: v${{ steps.date.outputs.today }}.${{ github.run_number }}
           files: Assets/*.hex
