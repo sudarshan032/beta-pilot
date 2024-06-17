@@ -5,7 +5,7 @@
 #   secrets.REPO_TOKEN - A GitHub token with permissions to push and publish releases to the nightly repo
 
 env:
-  repo_nightly: sudarshan032/betaflight-nightlies
+  repo_nightly: sudarshan032/beta-pilot
   debug_release_notes: >
     This is an automated development build.
     It may be unstable and result in craft loss or damage.
